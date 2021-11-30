@@ -1,3 +1,4 @@
+#Função utilizada para saber qual o número primo mais perto do número digitado pelo usuário
 def maior_primo(n):
     cont = 1
     maior = 0
@@ -8,7 +9,9 @@ def maior_primo(n):
         cont += 1
     return maior
 
+#Nessa função é virificado se o número alocado na variável é primo
 def primo(n):
+    
     if n == 2:
         return True
 

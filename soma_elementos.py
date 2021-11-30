@@ -1,7 +1,8 @@
-def remove_repetidos(l):
-    l.sort()
-    no_reps = []
+#Essa função realiza a soma dos elementos de uma lista
+def soma_elementos(l):
+    n = 0
+    #Esse For, pega cada um dos itens da lista e soma em uma variável
     for e in l:
-        if e not in no_reps:
-            no_reps.append(e)
-    return no_reps
+        n += e
+    #Aqui é retornado ao usuário o valor da soma dos elementos da lista
+    return n
